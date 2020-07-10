@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form action="">
+        <label for="">Player 1</label>
+        <label for="">Enter your age</label>
+        <input type="text" name="" id="age1" onchange="playerOne()">
+        <label for="">Enter your height</label>
+        <input type="text" name="" id="height1" onchange="playerOne()">
+        <label for="">Player 2</label>
+        <label for="">Enter your age</label>
+        <input type="text" name="" id="age2" onchange="playerTwo()">
+        <label for="">Enter your height</label>
+        <input type="text" name="" id="height2" onchange="playerTwo()">
+        <label for="">Player 3</label>
+        <label for="">Enter your age</label>
+        <input type="text" name="" id="age3"onchange="playerThree()" >
+        <label for="">Enter your height</label>
+        <input type="text" name="" id="height3" onchange="playerThree()">
+        <label for="">Player 4</label>
+        <label for="">Enter your age</label>
+        <input type="text" name="" id="age4"onchange="playerFour()">
+        <label for="">Enter your height</label>
+        <input type="text" name="" id="height4" onchange="playerFour()">
+        <input type="button" value="Check" onclick="compare()">
+        <h1>The highest points are:</h1>
+        <p id="points"></p>
+        <h1>The winner is:</h1>
+        <p id="winner"></p>
+
+
+    </form>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
